@@ -6,6 +6,9 @@ require "pry"
 #get the first value out of a hash
 #assign lowest_value before the loop to be the value I just retrieved.
 
+original_hash = {:shirt => 15, :skirt => 30, :dress => 40, :shoes => 5, :jeans => 45}
+empty_hash = {}
+
 def key_for_min_value(hash)
 
 end 
