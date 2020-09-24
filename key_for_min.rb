@@ -24,9 +24,10 @@ def key_for_min_value(hash)
         lowest_key_value_pair = pair
       end
     end
+    p lowest_key_value_pair[0]
 end
-# key_for_min_value(original_hash)
-key_for_min_value(empty_hash)
+key_for_min_value(original_hash)
+
 
 
 
