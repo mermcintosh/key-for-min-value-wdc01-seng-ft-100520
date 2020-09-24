@@ -12,7 +12,7 @@ empty_hash = {}
 def key_for_min_value(hash)
 
 end 
-key_for_min_value(original_hash)
+# key_for_min_value(original_hash)
 key_for_min_value(empty_hash)
 
 
