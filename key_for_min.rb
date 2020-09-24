@@ -17,6 +17,13 @@ def key_for_min_value(hash)
   lowest_key_value_pair = nil
   
   hash.each do |pair|
+    if (lowest_key_value_pair == nil)
+      lowest_key_value_pair = pair
+    else
+      if(pair[1] < lowest_key_value_pair[1])
+        lowest_key_value_pair = pair
+      end
+    end
 end
 # key_for_min_value(original_hash)
 key_for_min_value(empty_hash)
