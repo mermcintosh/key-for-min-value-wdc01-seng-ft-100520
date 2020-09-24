@@ -10,7 +10,7 @@ original_hash = {:shirt => 15, :skirt => 30, :dress => 40, :shoes => 5, :jeans =
 empty_hash = {}
 
 def key_for_min_value(hash)
-
+  
 end 
 # key_for_min_value(original_hash)
 key_for_min_value(empty_hash)
